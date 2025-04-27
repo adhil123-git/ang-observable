@@ -1,0 +1,5 @@
+<h2>student List</h2>
+<button (click)="showdata()">subscribe</button>
+  <li *ngFor="let student of dummydata">
+    {{ student.id}} -{{ student.name }}-{{ student.username }}-{{ student.email }} -{{student.phone}}
+  </li>
